@@ -1,0 +1,27 @@
+﻿@if (CurrentUser != null)
+{
+
+    <div class="container mt-3">
+        <h2>@CurrentUser.Name</h2>
+        <img src="profil.jpg" id="profilImage">
+    </div>
+    <a href="#" class="w3-bar-item w3-button">Profil Detayı</a>
+    <a href="#" class="w3-bar-item w3-button">Yorum Geçmişim</a>
+    <a href="#" class="w3-bar-item w3-button">Favori Yemeklerim</a>
+    <a href="#" class="w3-bar-item w3-button">Favori Tatlılarım</a>
+    <a href="#" class="w3-bar-item w3-button">Favori İçeceklerim</a>
+    <a href="#" class="w3-bar-item w3-button">Beğendiğim Yerler</a>
+    <a href="#" class="w3-bar-item w3-button">Hesap Ayarları</a>
+    <a href="#" class="w3-bar-item w3-button">Güvenlik</a>
+    <a href="#" class="w3-bar-item w3-button">Kullanıcı Sözleşmesi</a>
+    <a class="w3-bar-item w3-button" asp-area="" asp-controller="Account" asp-action="LogOut">Çıkış Yap</a>
+
+}
+else
+{
+
+    <br />
+    <a class="w3-bar-item w3-button" asp-area="" asp-controller="Account" asp-action="Login">Giriş Yap</a>
+    <br />
+    <a class="w3-bar-item w3-button" asp-area="" asp-controller="Account" asp-action="SignUp">Kayıt Ol</a>
+}

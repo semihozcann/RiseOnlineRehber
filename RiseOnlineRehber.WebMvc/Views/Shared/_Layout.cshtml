@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RiseOnlineRehber.WebMvc</title>
+
+        @await Html.PartialAsync("_LayoutCssPartial")
+
+</head>
+
+<body>
+    
+    <partial name="_Header" />
+
+    <div id="bodyDiv">
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large"
+                    onclick="w3_close()">
+                Menüyü kapat &times;
+            </button>
+            
+            <partial name="_UserMenu" />
+
+        </div>
+        <select class="form-select" aria-label="Default select example" id="languageSelectBox">
+            <option value="1">TR</option>
+            <option value="1">ENG</option>
+            <option value="1">RUS</option><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TouristProject.WebMVC</title>
+
+        @await Html.PartialAsync("_LayoutCssPartial")
+
+</head>
+
+<body>
+    
+    <partial name="_Header" />
+
+    <div id="bodyDiv">
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large"
+                    onclick="w3_close()">
+                Menüyü kapat &times;
+            </button>
+            
+            <partial name="_UserMenu" />
+
+        </div>
+        <select class="form-select" aria-label="Default select example" id="languageSelectBox">
+            <option value="1">TR</option>
+            <option value="1">ENG</option>
+            <option value="1">RUS</option>
+            <option value="1">ESP</option>
+            <option value="1">AR</option>
+        </select>
+
+        <div id="main">
+
+            <div class="w3-teal" id="sidebarNav">
+                <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container">
+                </div>
+            </div>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+
+    </div>
+
+    <partial name="_Footer" />
+
+    @await Html.PartialAsync("_LayoutJsPartial");
+
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
+
+            <option value="1">ESP</option>
+            <option value="1">AR</option>
+        </select>
+
+        <div id="main">
+
+            <div class="w3-teal" id="sidebarNav">
+                <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container">
+                </div>
+            </div>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+
+    </div>
+
+    <partial name="_Footer" />
+
+    @await Html.PartialAsync("_LayoutJsPartial");
+
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

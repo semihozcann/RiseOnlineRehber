@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseOnlineRehber.Entities", "RiseOnlineRehber.Entities\RiseOnlineRehber.Entities.csproj", "{CE7FE08C-09BD-4A8D-808D-3F579B0022C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseOnlineRehber.DataAccess", "RiseOnlineRehber.DataAccess\RiseOnlineRehber.DataAccess.csproj", "{A402EB74-2784-46C7-B169-61C9865DFACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseOnlineRehber.Business", "RiseOnlineRehber.Business\RiseOnlineRehber.Business.csproj", "{97D4E2A3-EA0B-4536-8B5F-1E83830356EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseOnlineRehber.Core", "RiseOnlineRehber.Core\RiseOnlineRehber.Core.csproj", "{DDC01B7E-D12B-42D0-A7CE-E221381D376D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseOnlineRehber.WebMvc", "RiseOnlineRehber.WebMvc\RiseOnlineRehber.WebMvc.csproj", "{C36F3A8D-769D-42BB-B2B1-0689DDD6C083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7FE08C-09BD-4A8D-808D-3F579B0022C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7FE08C-09BD-4A8D-808D-3F579B0022C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7FE08C-09BD-4A8D-808D-3F579B0022C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7FE08C-09BD-4A8D-808D-3F579B0022C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A402EB74-2784-46C7-B169-61C9865DFACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A402EB74-2784-46C7-B169-61C9865DFACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A402EB74-2784-46C7-B169-61C9865DFACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A402EB74-2784-46C7-B169-61C9865DFACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D4E2A3-EA0B-4536-8B5F-1E83830356EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D4E2A3-EA0B-4536-8B5F-1E83830356EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D4E2A3-EA0B-4536-8B5F-1E83830356EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D4E2A3-EA0B-4536-8B5F-1E83830356EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC01B7E-D12B-42D0-A7CE-E221381D376D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC01B7E-D12B-42D0-A7CE-E221381D376D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC01B7E-D12B-42D0-A7CE-E221381D376D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC01B7E-D12B-42D0-A7CE-E221381D376D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36F3A8D-769D-42BB-B2B1-0689DDD6C083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36F3A8D-769D-42BB-B2B1-0689DDD6C083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36F3A8D-769D-42BB-B2B1-0689DDD6C083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36F3A8D-769D-42BB-B2B1-0689DDD6C083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6088D9-BAE1-4DFF-88D8-AA62354E33B7}
+	EndGlobalSection
+EndGlobal
